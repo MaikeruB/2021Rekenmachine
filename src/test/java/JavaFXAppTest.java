@@ -7,9 +7,9 @@ public class JavaFXAppTest {
     public void TestDivision() {
 
         int expectedResult = 25;
-        JavaFXApp app = new JavaFXApp();
-
-        int actualResult = app.computeMultiply(5, 5);
+        MultiplyComputation com = new MultiplyComputation();
+        
+        int actualResult = com.compute(5, 5);
 
         // assert
         assertEquals(expectedResult, actualResult);

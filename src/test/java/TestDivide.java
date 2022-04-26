@@ -7,10 +7,9 @@ public class TestDivide {
     public void TestDivision() {
         // arrange
         int expectedResult = 5;
-        JavaFXApp app = new JavaFXApp();
-
+       DivideComputation com = new DivideComputation();
         // act
-        int actualResult = app.computeDivide(25, 5);    
+        int actualResult = com.compute(25, 5);
 
         // assert
         assertEquals(expectedResult, actualResult);

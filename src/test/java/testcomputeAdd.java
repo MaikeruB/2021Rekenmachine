@@ -7,10 +7,10 @@ public class testcomputeAdd {
     void testcomputeAdd(){
         //Arrange
         int expectedResult = 4;
-        JavaFXApp App = new JavaFXApp();
+       PlusComputation com = new PlusComputation();
 
         //Act
-        int actualResult = App.computeAdd(3,1);
+        int actualResult = com.compute(3,1);
 
         //Assert
         assertEquals(expectedResult,actualResult);
