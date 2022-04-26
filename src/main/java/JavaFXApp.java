@@ -28,7 +28,7 @@ public class JavaFXApp extends Application {
     private int getNumberFromTextField (TextField textField) {
         return Integer.parseInt (textField.getText ());
     }
-
+  
     private void compute (String operator) {
 
         IComputation computation = null;
